@@ -4,6 +4,6 @@ function checkurl() {
 
     // Simulate an HTTP redirect:
         console.log(thecurrenturl)
-        window.location.replace("https://gbemim.github.io/Connect/filter/noaccess.html");
+        window.location.href = 'https://gbemim.github.io/Connect/filter/noaccess.html';
     }
 }
