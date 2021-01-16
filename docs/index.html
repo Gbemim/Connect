@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-   <meta charset="utf-8">
-   <title> Connect</title>
-   <link rel="stylesheet" href="login.css">
-   <script src="index.js"></script>
-  </head>
-  <body>
-    <div>
-    <form class="box" method="post">
-    <h1> Login / Sign Up </h1>
-    <input type="submit" value="VIA LINKEDIN" onclick="location.href='www.linkedin.com/oauth/v2/authorization?response_type=code&scope=r_liteprofile&client_id=78u164wa90o3qt&redirect_uri=https%3A%2F%2Fwww.facebook.com/'">
-    
+
+<head>
+  <meta charset="utf-8">
+  <title> Connect</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div class="box">
+    <form>
+      <h1> Login / Sign Up </h1>
+    </form>
+    <a
+      href="https://www.linkedin.com/oauth/v2/authorization?response_type=code&scope=r_liteprofile&client_id=78u164wa90o3qt&redirect_uri=https%3A%2F%2Fwww.facebook.com/">
+      <input type="submit" value="VIA LINKEDIN">
     </a>
-<!-- Since we are just logging/signing up with linkedin maybe we can add this to it -->
-    <!-- <a href="SIGNUP.html">New User? Sign Up Here!</a> -->  </form>
-    </div>
-  
-  </body>
+  </div>
+
+</body>
+
 </html>
